@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 select u.name NAME,sum(t.amount) BALANCE 
 from Users as u 
 join Transactions as t
