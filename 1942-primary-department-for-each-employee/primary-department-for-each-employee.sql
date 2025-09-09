@@ -8,4 +8,4 @@ union
 
 select employee_id,department_id
 from Employee
-where primary_flag ='Y'
+where primary_flag ='Y';
