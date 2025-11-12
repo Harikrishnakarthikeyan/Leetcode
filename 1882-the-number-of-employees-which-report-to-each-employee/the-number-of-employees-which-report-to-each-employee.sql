@@ -3,7 +3,6 @@ Select e.employee_id,e.name,count(e1.reports_to) as reports_count,round(avg(e1.a
 from Employees as e
 join Employees as e1
 on e.employee_id = e1.reports_to
-where e.employee_id=e1.reports_to
 group by e1.reports_to
 having count(e1.reports_to)>0
 order by employee_id;
