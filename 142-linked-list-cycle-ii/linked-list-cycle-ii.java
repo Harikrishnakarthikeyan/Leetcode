@@ -22,7 +22,7 @@ public class Solution {
             map.put(temp,ind++);
             temp=temp.next;
         }
-     temp=null;
-     return temp;
+     
+     return null;
     }
 }
