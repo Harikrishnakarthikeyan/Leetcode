@@ -16,6 +16,6 @@ class Solution {
 
 
         }
-        return letters[start%letters.length];
+        return letters[start];
     }
 }
